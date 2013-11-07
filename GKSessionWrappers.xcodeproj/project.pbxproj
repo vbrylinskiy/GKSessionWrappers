@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB9F76BB182C361100558ABB /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76B4182C361100558ABB /* Master.m */; };
-		EB9F76BC182C361100558ABB /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76B6182C361100558ABB /* Client.m */; };
-		EB9F76C3182C361900558ABB /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76BE182C361900558ABB /* Server.m */; };
-		EB9F76C4182C361900558ABB /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76C1182C361900558ABB /* Connection.m */; };
+		EB9F76E7182C3D3700558ABB /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76E0182C3D3700558ABB /* Client.m */; };
+		EB9F76E8182C3D3700558ABB /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76E4182C3D3700558ABB /* Master.m */; };
+		EB9F76EF182C3D4100558ABB /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76EA182C3D4100558ABB /* Connection.m */; };
+		EB9F76F0182C3D4100558ABB /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76ED182C3D4100558ABB /* Server.m */; };
 		EBF64EFA182C2B1A007F2114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF64EF9182C2B1A007F2114 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,20 +27,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EB9F76B3182C361100558ABB /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
-		EB9F76B4182C361100558ABB /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
-		EB9F76B5182C361100558ABB /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
-		EB9F76B6182C361100558ABB /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
-		EB9F76B7182C361100558ABB /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peer.h; sourceTree = "<group>"; };
-		EB9F76B8182C361100558ABB /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
-		EB9F76B9182C361100558ABB /* PeerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerDelegate.h; sourceTree = "<group>"; };
-		EB9F76BA182C361100558ABB /* HostDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostDelegate.h; sourceTree = "<group>"; };
-		EB9F76BD182C361900558ABB /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
-		EB9F76BE182C361900558ABB /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
-		EB9F76BF182C361900558ABB /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
-		EB9F76C0182C361900558ABB /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
-		EB9F76C1182C361900558ABB /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
-		EB9F76C2182C361900558ABB /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		EB9F76DF182C3D3700558ABB /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Model/Client.h; sourceTree = "<group>"; };
+		EB9F76E0182C3D3700558ABB /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Model/Client.m; sourceTree = "<group>"; };
+		EB9F76E1182C3D3700558ABB /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Host.h; path = Model/Host.h; sourceTree = "<group>"; };
+		EB9F76E2182C3D3700558ABB /* HostDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HostDelegate.h; path = Model/HostDelegate.h; sourceTree = "<group>"; };
+		EB9F76E3182C3D3700558ABB /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Master.h; path = Model/Master.h; sourceTree = "<group>"; };
+		EB9F76E4182C3D3700558ABB /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Master.m; path = Model/Master.m; sourceTree = "<group>"; };
+		EB9F76E5182C3D3700558ABB /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Peer.h; path = Model/Peer.h; sourceTree = "<group>"; };
+		EB9F76E6182C3D3700558ABB /* PeerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeerDelegate.h; path = Model/PeerDelegate.h; sourceTree = "<group>"; };
+		EB9F76E9182C3D4100558ABB /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = Networking/Connection.h; sourceTree = "<group>"; };
+		EB9F76EA182C3D4100558ABB /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = Networking/Connection.m; sourceTree = "<group>"; };
+		EB9F76EB182C3D4100558ABB /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionDelegate.h; path = Networking/ConnectionDelegate.h; sourceTree = "<group>"; };
+		EB9F76EC182C3D4100558ABB /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Server.h; path = Networking/Server.h; sourceTree = "<group>"; };
+		EB9F76ED182C3D4100558ABB /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Server.m; path = Networking/Server.m; sourceTree = "<group>"; };
+		EB9F76EE182C3D4100558ABB /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerDelegate.h; path = Networking/ServerDelegate.h; sourceTree = "<group>"; };
 		EBF64EF6182C2B1A007F2114 /* libGKSessionWrappers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGKSessionWrappers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF64EF9182C2B1A007F2114 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBF64EFD182C2B1A007F2114 /* GKSessionWrappers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKSessionWrappers-Prefix.pch"; sourceTree = "<group>"; };
@@ -104,12 +104,12 @@
 		EBF64F07182C2B69007F2114 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				EB9F76BD182C361900558ABB /* Server.h */,
-				EB9F76BE182C361900558ABB /* Server.m */,
-				EB9F76BF182C361900558ABB /* ServerDelegate.h */,
-				EB9F76C0182C361900558ABB /* Connection.h */,
-				EB9F76C1182C361900558ABB /* Connection.m */,
-				EB9F76C2182C361900558ABB /* ConnectionDelegate.h */,
+				EB9F76E9182C3D4100558ABB /* Connection.h */,
+				EB9F76EA182C3D4100558ABB /* Connection.m */,
+				EB9F76EB182C3D4100558ABB /* ConnectionDelegate.h */,
+				EB9F76EC182C3D4100558ABB /* Server.h */,
+				EB9F76ED182C3D4100558ABB /* Server.m */,
+				EB9F76EE182C3D4100558ABB /* ServerDelegate.h */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -117,14 +117,14 @@
 		EBF64F08182C2B70007F2114 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EB9F76B3182C361100558ABB /* Master.h */,
-				EB9F76B4182C361100558ABB /* Master.m */,
-				EB9F76B5182C361100558ABB /* Client.h */,
-				EB9F76B6182C361100558ABB /* Client.m */,
-				EB9F76B7182C361100558ABB /* Peer.h */,
-				EB9F76B8182C361100558ABB /* Host.h */,
-				EB9F76B9182C361100558ABB /* PeerDelegate.h */,
-				EB9F76BA182C361100558ABB /* HostDelegate.h */,
+				EB9F76DF182C3D3700558ABB /* Client.h */,
+				EB9F76E0182C3D3700558ABB /* Client.m */,
+				EB9F76E1182C3D3700558ABB /* Host.h */,
+				EB9F76E2182C3D3700558ABB /* HostDelegate.h */,
+				EB9F76E3182C3D3700558ABB /* Master.h */,
+				EB9F76E4182C3D3700558ABB /* Master.m */,
+				EB9F76E5182C3D3700558ABB /* Peer.h */,
+				EB9F76E6182C3D3700558ABB /* PeerDelegate.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -180,10 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9F76BB182C361100558ABB /* Master.m in Sources */,
-				EB9F76BC182C361100558ABB /* Client.m in Sources */,
-				EB9F76C3182C361900558ABB /* Server.m in Sources */,
-				EB9F76C4182C361900558ABB /* Connection.m in Sources */,
+				EB9F76E7182C3D3700558ABB /* Client.m in Sources */,
+				EB9F76E8182C3D3700558ABB /* Master.m in Sources */,
+				EB9F76EF182C3D4100558ABB /* Connection.m in Sources */,
+				EB9F76F0182C3D4100558ABB /* Server.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
