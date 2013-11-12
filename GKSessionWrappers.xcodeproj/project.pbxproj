@@ -12,6 +12,18 @@
 		EB9F76E8182C3D3700558ABB /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76E4182C3D3700558ABB /* Master.m */; };
 		EB9F76EF182C3D4100558ABB /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76EA182C3D4100558ABB /* Connection.m */; };
 		EB9F76F0182C3D4100558ABB /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76ED182C3D4100558ABB /* Server.m */; };
+		EBDF7E7C18323CBB009EE8C2 /* Client.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76DF182C3D3700558ABB /* Client.h */; };
+		EBDF7E7D18323CBB009EE8C2 /* Host.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76E1182C3D3700558ABB /* Host.h */; };
+		EBDF7E7E18323CBB009EE8C2 /* HostDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76E2182C3D3700558ABB /* HostDelegate.h */; };
+		EBDF7E7F18323CBB009EE8C2 /* Master.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76E3182C3D3700558ABB /* Master.h */; };
+		EBDF7E8018323CBB009EE8C2 /* Peer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76E5182C3D3700558ABB /* Peer.h */; };
+		EBDF7E8118323CBB009EE8C2 /* Connection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76E9182C3D4100558ABB /* Connection.h */; };
+		EBDF7E8218323CBB009EE8C2 /* ConnectionDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76EB182C3D4100558ABB /* ConnectionDelegate.h */; };
+		EBDF7E8318323CBB009EE8C2 /* Server.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76EC182C3D4100558ABB /* Server.h */; };
+		EBDF7E8418323CBB009EE8C2 /* ServerDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76EE182C3D4100558ABB /* ServerDelegate.h */; };
+		EBDF7E8518323CBB009EE8C2 /* ServerSearcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB10BA2018322B81001CE9F9 /* ServerSearcher.h */; };
+		EBDF7E8618323CC2009EE8C2 /* PeerDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB9F76E6182C3D3700558ABB /* PeerDelegate.h */; };
+		EBDF7E8718323CC2009EE8C2 /* ServerSearcherDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB10BA1F18322A04001CE9F9 /* ServerSearcherDelegate.h */; };
 		EBF64EFA182C2B1A007F2114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF64EF9182C2B1A007F2114 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +34,18 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				EBDF7E8618323CC2009EE8C2 /* PeerDelegate.h in CopyFiles */,
+				EBDF7E8718323CC2009EE8C2 /* ServerSearcherDelegate.h in CopyFiles */,
+				EBDF7E7C18323CBB009EE8C2 /* Client.h in CopyFiles */,
+				EBDF7E7D18323CBB009EE8C2 /* Host.h in CopyFiles */,
+				EBDF7E7E18323CBB009EE8C2 /* HostDelegate.h in CopyFiles */,
+				EBDF7E7F18323CBB009EE8C2 /* Master.h in CopyFiles */,
+				EBDF7E8018323CBB009EE8C2 /* Peer.h in CopyFiles */,
+				EBDF7E8118323CBB009EE8C2 /* Connection.h in CopyFiles */,
+				EBDF7E8218323CBB009EE8C2 /* ConnectionDelegate.h in CopyFiles */,
+				EBDF7E8318323CBB009EE8C2 /* Server.h in CopyFiles */,
+				EBDF7E8418323CBB009EE8C2 /* ServerDelegate.h in CopyFiles */,
+				EBDF7E8518323CBB009EE8C2 /* ServerSearcher.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
