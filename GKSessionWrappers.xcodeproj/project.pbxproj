@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB10BA2218322B81001CE9F9 /* ServerSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB10BA2118322B81001CE9F9 /* ServerSearcher.m */; };
 		EB9F76E7182C3D3700558ABB /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76E0182C3D3700558ABB /* Client.m */; };
 		EB9F76E8182C3D3700558ABB /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76E4182C3D3700558ABB /* Master.m */; };
 		EB9F76EF182C3D4100558ABB /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F76EA182C3D4100558ABB /* Connection.m */; };
@@ -27,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB10BA1F18322A04001CE9F9 /* ServerSearcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerSearcherDelegate.h; path = Networking/ServerSearcherDelegate.h; sourceTree = "<group>"; };
+		EB10BA2018322B81001CE9F9 /* ServerSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerSearcher.h; path = Networking/ServerSearcher.h; sourceTree = "<group>"; };
+		EB10BA2118322B81001CE9F9 /* ServerSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerSearcher.m; path = Networking/ServerSearcher.m; sourceTree = "<group>"; };
 		EB9F76DF182C3D3700558ABB /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Model/Client.h; sourceTree = "<group>"; };
 		EB9F76E0182C3D3700558ABB /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Model/Client.m; sourceTree = "<group>"; };
 		EB9F76E1182C3D3700558ABB /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Host.h; path = Model/Host.h; sourceTree = "<group>"; };
@@ -104,12 +108,15 @@
 		EBF64F07182C2B69007F2114 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				EB10BA1F18322A04001CE9F9 /* ServerSearcherDelegate.h */,
 				EB9F76E9182C3D4100558ABB /* Connection.h */,
 				EB9F76EA182C3D4100558ABB /* Connection.m */,
 				EB9F76EB182C3D4100558ABB /* ConnectionDelegate.h */,
 				EB9F76EC182C3D4100558ABB /* Server.h */,
 				EB9F76ED182C3D4100558ABB /* Server.m */,
 				EB9F76EE182C3D4100558ABB /* ServerDelegate.h */,
+				EB10BA2018322B81001CE9F9 /* ServerSearcher.h */,
+				EB10BA2118322B81001CE9F9 /* ServerSearcher.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9F76E7182C3D3700558ABB /* Client.m in Sources */,
+				EB10BA2218322B81001CE9F9 /* ServerSearcher.m in Sources */,
 				EB9F76E8182C3D3700558ABB /* Master.m in Sources */,
 				EB9F76EF182C3D4100558ABB /* Connection.m in Sources */,
 				EB9F76F0182C3D4100558ABB /* Server.m in Sources */,

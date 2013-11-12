@@ -29,9 +29,11 @@
     return [self.clients count];
 }
 
-- (NSString *)peerId {
-    return [self.server peerId];
+- (Client *)clientForConnection:(Connection *)connection {
+    return [[self.clients filteredSetUsingPredicate:[NSPredicate predicateWithFormat:@"connection == %@", connection]] anyObject];
 }
+
+#pragma mark - Host
 
 - (BOOL)startSession:(NSString *)sessionIdentifier {
     self.server = [[Server alloc] initWithSessionId:sessionIdentifier];
@@ -45,6 +47,12 @@
     return YES;
 }
 
+#pragma mark - Peer
+
+- (NSString *)peerId {
+    return [self.server peerId];
+}
+
 - (void)leaveSession {
     [self.server stop];
     self.server = nil;
@@ -54,10 +62,6 @@
 
 - (void)sendMessage:(NSData *)data {
     [self.server broadcastNetworkPacket:data];
-}
-
-- (Client *)clientForConnection:(Connection *)connection {
-    return [[self.clients filteredSetUsingPredicate:[NSPredicate predicateWithFormat:@"connection == %@", connection]] anyObject];
 }
 
 #pragma mark - ServerDelegate
