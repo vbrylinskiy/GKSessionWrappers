@@ -1,11 +1,3 @@
-//
-//  ServerSearcher.m
-//  GKSessionWrappers
-//
-//  Created by Vladislav Brylinskiy on 12.11.13.
-//  Copyright (c) 2013 Vladislav Brylinskiy. All rights reserved.
-//
-
 #import "ServerSearcher.h"
 #import <GameKit/GKSession.h>
 #import "Client.h"
